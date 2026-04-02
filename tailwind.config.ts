@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['var(--font-heading)'],
+        body: ['var(--font-body)'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,12 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        upvote: "hsl(var(--upvote))",
+        downvote: "hsl(var(--downvote))",
+        topic: {
+          bg: "hsl(var(--topic-bg))",
+          fg: "hsl(var(--topic-fg))",
         },
       },
       borderRadius: {
